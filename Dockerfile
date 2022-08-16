@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:latest
 #LABEL org.opencontainers.image.authors="muhammad.umar@divaaco.com"
 RUN yum install unzip httpd -y
 WORKDIR /var/www/html
